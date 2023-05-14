@@ -2,10 +2,13 @@
   "name": "gpt4free-ts",
   "version": "0.0.1",
   "description": "gpt4free typescript version",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "commonjs",
   "scripts": {
     "test": "ts-node test.ts",
-    "start": "ts-node index.ts"
+    "start": "ts-node main.ts",
+    "build": "tsc"
   },
   "keywords": [
     "git4free",
